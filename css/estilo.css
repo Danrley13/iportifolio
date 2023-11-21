@@ -363,7 +363,7 @@ section {
     line-height: 40px;
     display: block;
     font-weight: 300;
-    color: #201414;
+    color: #506241;
     margin-left: 60px;
 
 }
@@ -372,7 +372,7 @@ section {
     margin: 0 0 0 60px;
     font-family: "Ralaway", sans-serif;
     font-size: 14px;
-    color: chartreuse;
+    color: rgb(72, 90, 55);
 
 }
 .facts .count-box a {
@@ -404,4 +404,68 @@ section {
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #201414;
+}
+.skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+
+}
+.skills .progress-bar {
+    background-color: #149ddd;
+    height: 10px;
+}
+.skills .progress-bar{
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: rgb(24, 32, 32);
+}
+/* RESUMO */
+.resume .resume-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #643e7e;
+
+}
+.resume .resume-item{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #149ddd;
+    position: relative;
+}
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #201414;
+    margin-bottom: 10px;
+}
+.resume .resume-item h5{
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.resume .resume-item ul{
+    padding-left: 20px;
+}
+.resume .resume-item ul li{
+    padding-bottom: 10px;
+}
+.resume .resume-item::before {
+    content: "";
+    position: 16px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #e4edf9;
+    border: 2px solid #643e7e;
 }
