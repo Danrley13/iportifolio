@@ -460,7 +460,7 @@ section {
 }
 .resume .resume-item::before {
     content: "";
-    position: 16px;
+    position: absolute;
     width: 16px;
     height: 16px;
     border-radius: 50px;
